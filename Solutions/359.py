@@ -1,6 +1,6 @@
 count = 0
 sums = []
-with open("17-354.txt") as s:
+with open("../17-354.txt") as s:
     data = [int(i) for i in s]
     for i in range(1, len(data)):
         if abs(data[i] % 10 - data[i - 1] % 10) == 1:
